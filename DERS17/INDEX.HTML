@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webflow Media</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #111;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      cursor: pointer;
+    }
+    .cta-buttons {
+      display: flex;
+      gap: 1rem;
+    }
+    .cta-buttons a {
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+    .contact {
+      background: #eef;
+      color: #333;
+    }
+    .get-started {
+      background: #4353ff;
+      color: white;
+    }
+    .hero {
+      background: #3b49fc;
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+    }
+    .section {
+      padding: 4rem 2rem;
+    }
+    .featured {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card h4 {
+      margin: 0.5rem 0 0.25rem;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      color: #666;
+    }
+    .card h3 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin: 0;
+    }
+    .press {
+      border-top: 1px solid #ccc;
+      padding-top: 2rem;
+    }
+    .press-entry {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    .press-entry h4 {
+      margin: 0;
+    }
+    footer {
+      text-align: right;
+      padding: 2rem;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><strong>webflow</strong></div>
+    <nav>
+      <ul>
+        <li>Product</li>
+        <li>Solutions</li>
+        <li>Resources</li>
+        <li>Enterprise</li>
+        <li>Pricing</li>
+      </ul>
+    </nav>
+    <div class="cta-buttons">
+      <a href="#" class="contact">Contact sales</a>
+      <a href="#" class="get-started">Get started — it’s free</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Media</h1>
+    <p>Read, listen, or watch the top coverage about Webflow from news articles, podcasts, events, and more.</p>
+  </section>
+
+  <section class="section">
+    <h2>Featured stories</h2>
+    <div class="featured">
+      <div class="card">
+        <img src="https://placehold.co/600x400" alt="Forbes Story" />
+        <h4>FORBES</h4>
+        <h3>Website builder Webflow hits $4 billion valuation as it nears $100 million revenue</h3>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/600x400" alt="Tech Republic Story" />
+        <h4>TECH REPUBLIC</h4>
+        <h3>The no-code movement is in the early stages but will bring exciting new possibilities</h3>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/600x400" alt="SaaStr Story" />
+        <h4>SAASTR</h4>
+        <h3>Building an Enduring Company, One Hard Lesson at a Time</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="section press">
+    <h2>Press</h2>
+    <div class="press-entry">
+      <div><h4>2022</h4></div>
+      <div>
+        <p><strong>Forbes</strong> — Website builder Webflow hits $4 billion valuation as it nears $100 million revenue</p>
+        <p><strong>Business Insider</strong> — How AWS became the backbone of $2 billion low-code startup Webflow’s website builder as it weighs an IPO and targets large customers</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>🔵 Made in Webflow</p>
+  </footer>
+</body>
+</html>
